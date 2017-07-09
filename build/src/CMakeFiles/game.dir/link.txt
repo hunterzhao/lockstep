@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgame.a  CMakeFiles/game.dir/event_poll.cc.o CMakeFiles/game.dir/game_server.cc.o CMakeFiles/game.dir/socket_event.cc.o CMakeFiles/game.dir/game_socket_event.cc.o CMakeFiles/game.dir/game_unit.cc.o CMakeFiles/game.dir/notify_event.cc.o CMakeFiles/game.dir/timer_event.cc.o CMakeFiles/game.dir/reactor.cc.o CMakeFiles/game.dir/log.cc.o CMakeFiles/game.dir/game.pb.cc.o CMakeFiles/game.dir/player.cc.o
+/usr/bin/ranlib libgame.a

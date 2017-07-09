@@ -1,0 +1,1 @@
+/usr/bin/c++    -g -pthread -std=c++11 -Wall -O2   CMakeFiles/client.dir/client.cc.o CMakeFiles/client.dir/game.pb.cc.o  -o ../../bin/client  -L/mnt/hgfs/workstation/lockstep/lib -rdynamic -lprotobuf -Wl,-rpath,/mnt/hgfs/workstation/lockstep/lib 

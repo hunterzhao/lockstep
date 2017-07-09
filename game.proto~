@@ -1,0 +1,77 @@
+syntax = "proto3";
+
+package game;
+
+message Walk {
+   
+}
+
+message Jump {
+
+}
+/*
+* command type
+* 0 ~ 2. game logic
+* 0. join game
+* 1. parse game
+* 2. leave game
+* 3 ~ 6 action
+* 3. jump
+* 4. walk
+* 5. run
+* 6. shoot
+* 
+* player position x y z
+* 
+*/
+
+message ActionProto {
+   int32 playerid = 1;
+   int32 type = 2;
+   double x = 3;
+   double y = 4;
+   double z = 5;
+   Walk walkdata = 6;
+   Jump jumpdata = 7;
+}
+
+message UnitReqProto {
+   int32 type = 0;
+   ActionProto action = 1;
+}
+
+/*
+* 0. create game unit
+* 1. create player
+* 2. add player to game unit
+* 3. command in unit
+*/
+message GameReqProto {
+   int32 type     = 1;
+   int32 unitid   = 2;
+   int32 playerid = 3;
+   UnitReqProto unitreq = 4;
+}
+
+/*
+* game logic
+* 0. create game unit
+* 1. create player
+* 2. add
+* 3. unit logic
+*/
+
+message PlayerProto {
+   int32 playerid = 1;
+   
+}
+
+message GameResProto {
+   int32 type = 1;
+   int32 code = 2;
+   repeated ActionProto unitres = 3;
+   UnitProto unitinfo = 4;
+   PlayerProto playerinfo = 5;
+}
+
+

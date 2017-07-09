@@ -1,0 +1,10 @@
+/mnt/hgfs/workstation/lockstep/build/CMakeFiles/edit_cache.dir
+/mnt/hgfs/workstation/lockstep/build/CMakeFiles/rebuild_cache.dir
+/mnt/hgfs/workstation/lockstep/build/src/CMakeFiles/edit_cache.dir
+/mnt/hgfs/workstation/lockstep/build/src/CMakeFiles/rebuild_cache.dir
+/mnt/hgfs/workstation/lockstep/build/src/CMakeFiles/game_so.dir
+/mnt/hgfs/workstation/lockstep/build/src/CMakeFiles/game.dir
+/mnt/hgfs/workstation/lockstep/build/test/CMakeFiles/rebuild_cache.dir
+/mnt/hgfs/workstation/lockstep/build/test/CMakeFiles/edit_cache.dir
+/mnt/hgfs/workstation/lockstep/build/test/CMakeFiles/client.dir
+/mnt/hgfs/workstation/lockstep/build/test/CMakeFiles/server.dir

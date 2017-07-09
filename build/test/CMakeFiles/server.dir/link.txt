@@ -1,0 +1,1 @@
+/usr/bin/c++    -g -pthread -std=c++11 -Wall -O2   CMakeFiles/server.dir/server.cc.o  -o ../../bin/server  -L/mnt/hgfs/workstation/lockstep/lib -rdynamic ../src/libgame.a -lprotobuf -lglog -Wl,-rpath,/mnt/hgfs/workstation/lockstep/lib 

@@ -1,0 +1,14 @@
+*** Aborted at 1499586322 (unix time) try "date -d @1499586322" if you are using GNU date ***
+PC: @           0x41839e game::Player::send()
+*** SIGSEGV (@0x18) received by PID 53170 (TID 0x7fcd4818c740) from PID 24; stack trace: ***
+    @     0x7fcd47166390 (unknown)
+    @           0x41839e game::Player::send()
+    @           0x40dac7 game::GameServer::broadCastAll()
+    @           0x40e108 game::GameServer::doRequest()
+    @           0x40e328 game::GameServer::detectPackage()
+    @           0x40ebb2 game::GameSocketEvent::dataIn()
+    @           0x40ec67 game::GameSocketEvent::onEvent()
+    @           0x410478 game::Reactor::loop()
+    @           0x40d208 main
+    @     0x7fcd46dab830 __libc_start_main
+    @           0x40d3f9 _start
